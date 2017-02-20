@@ -30,7 +30,7 @@
  <nav class="navbar navbar-default" id="upnav">
   <ul class="nav navbar-nav">
     <li id="active"><a href="#">Home</a></li>
-    <li><a href="#">Reviews</a></li>
+    <li><a href="Pages/Reviews.php">Reviews</a></li>
     <li><a href="#">Services</a></li>
     
     <li><a href="#">Room Rates</a></li>
