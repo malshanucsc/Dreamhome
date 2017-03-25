@@ -31,9 +31,9 @@
   <ul class="nav navbar-nav">
     <li id="active"><a href="#">Home</a></li>
     <li><a href="Pages/Reviews.php">Reviews</a></li>
-    <li><a href="#">Services</a></li>
+    <li><a href="Pages/Services.php">Services</a></li>
     
-    <li><a href="#">Room Rates</a></li>
+    <li><a href="Pages/Roomrates.php">Room Rates</a></li>
     <li><a href="Pages/contact.php">Contact</a></li>
   </ul>
 

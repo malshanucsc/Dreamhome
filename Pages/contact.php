@@ -27,11 +27,11 @@
  <nav class="navbar navbar-default" id="upnav">
   <ul class="nav navbar-nav">
     <li ><a href="../index.php">Home</a></li>
-    <li><a href="Pages/Reviews.php">Reviews</a></li>
+    <li><a href="Reviews.php">Reviews</a></li>
     <li><a href="#">Services</a></li>
     
-    <li><a href="#">Room Rates</a></li>
-    <li id="active"><a href="Pages/contact.php">Contact</a></li>
+    <li><a href="Roomrates.php">Room Rates</a></li>
+    <li id="active"><a href="contact.php">Contact</a></li>
   </ul>
 
 </nav>
@@ -39,23 +39,46 @@
 </div>
 	
 </div>
- 
-<div class="col-md-12" id="contact_details">
-	
-	
+
+
+ <div class="col-md-12" id="contact_details">
+
 	 <form class="form-horizontal">
-  <div class="form-group">
-    <label class="control-label col-sm-2" for="email">Email:</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="email" placeholder="Enter email">
-    </div>
-  </div>
-  <div class="form-group">
-    <label class="control-label col-sm-2" for="pwd">Password:</label>
-    <div class="col-sm-10">
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-    </div>
-  </div>
+  
+  <div class="form group">
+	<label class="control-label col-sm-3" for="fname">First Name:</label>
+	<div class="col-sm-9">
+		<input type="text" class="form-control" id="fname" placeholder="Enter first name ">
+	</div>
+  </div><br><br>
+  
+  <div class="form group">
+	<label class="control-label col-sm-3" for="fname">Last Name:</label>
+	<div class="col-sm-9">
+		<input type="text" class="form-control" id="lname" placeholder="Enter last name ">
+	</div>
+  </div><br><br>
+  
+  <div class="form group">
+	<label class="control-label col-sm-3" for="emai">E-mail:</label>
+	<div class="col-sm-9">
+		<input type="email" class="form-control" id="email" placeholder="Enter E-mail ">
+	</div>
+  </div><br><br>
+  <div class="form group">
+	<label class="control-label col-sm-3" for="pno">Phone number:</label>
+	<div class="col-sm-9">
+		<input type="text" class="form-control" id="pno" placeholder="Enter phone number ">
+	</div>
+  </div><br><br>
+  
+  <div class="form group">
+	<label class="control-label col-sm-3" for="msg">Your message: </label>
+	<div class="col-sm-9">
+		<input type="text" class="form-control" id="msg" placeholder="Enter your message" width="1500 %">
+	</div>
+  </div><br><br>
+  
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
       <div class="checkbox">
@@ -63,28 +86,16 @@
       </div>
     </div>
   </div>
+  
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
       <button type="submit" class="btn btn-default">Submit</button>
     </div>
   </div>
+
 </form>
+</div>	
 	
 	
-	
-	<h3> First Name <input type="text" id="nametext1"><br></h3>
-	<h3> Last Name <input type="text" id="nametext2"><br></h3>
-	<h3> E-mail  <input type="text" id="email"><br></h3>
-	<h3> Phone Number</h> <input type="text" id="nametext2"><br></h3>
-	
-	
-</div>
-<div class="col-md-10" id="msg">
-<h3>your message   <input type="text" id="message"> <br></h3>
-<input type="button" value="send" id="sendbutton"><br>
-
- 
-
-</div>
 
 </body>

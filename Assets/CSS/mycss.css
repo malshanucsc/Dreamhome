@@ -268,8 +268,13 @@ margin-top: -7%;
     background-repeat: no-repeat;
 }
 #contact_details{
-	margin-top:13%;
+	margin-top:15%;
 	
+	
+}
+#availability_details{
+	margin-top:15%;
+	margin-left:15%;
 }
 
 

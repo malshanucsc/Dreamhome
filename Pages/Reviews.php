@@ -30,12 +30,12 @@
 <div class="col-md-10 ">
  <nav class="navbar navbar-default" id="upnav">
   <ul class="nav navbar-nav">
-    <li><a href="../">Home</a></li>
-    <li id="active"><a href="#">Reviews</a></li>
-    <li><a href="#">Services</a></li>
+    <li><a href="../index.php">Home</a></li>
+    <li id="active"><a href="Reviews.php">Reviews</a></li>
+    <li><a href="Services.php">Services</a></li>
     
-    <li><a href="#">Room Rates</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="Roomrates.php">Room Rates</a></li>
+    <li><a href="contact.php">Contact</a></li>
   </ul>
 
 </nav>
